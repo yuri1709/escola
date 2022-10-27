@@ -3,7 +3,7 @@
 </div>
 
 <div class="conteudo">
-  <escola-aluno [aluno]="aluno1"></escola-aluno><br>
+  <escola-aluno *ngFor="let aluno of alunos"[aluno]="aluno"></escola-aluno>
 </div>
 
 

@@ -10,10 +10,14 @@ export class AlunoComponent implements OnInit {
   
  @Input() aluno!: Aluno; //é operador de inicialização, cara isso é muito bom! pq não preciso passar valores pra variável ser inicializada.
   title = 'Escola Hunter';
-  
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  fazerRequerimento() {
+    console.log('Requerimento recebido !!')
   }
   
 
