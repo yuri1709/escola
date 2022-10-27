@@ -15,9 +15,11 @@ h1{
 .item{
     color: white;
     border: 3px red;
-    
-    
+}
 
+.status{
+    color: green;
+    font-weight: bolder;
 }
 
 

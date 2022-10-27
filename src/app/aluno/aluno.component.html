@@ -1,1 +1,9 @@
-<p>aluno works!</p>
+
+<div>
+    <div class="item">Aluno: {{aluno.nome}}</div>
+    <div class="item">Nota: {{aluno.nota}}</div>
+    <div class="item">Situação: {{aluno.situacao}}</div>
+    <!-- <input type="text" [value]="situacao">  -->
+
+    <div [class.status] ="aluno.aprovado">O aluno foi Aprovado EEEEE!</div>
+</div>
